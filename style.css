@@ -1,0 +1,71 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center; /* Memusatkan teks di input */
+}
+
+button {
+    background-color: #28a745; /* Warna hijau untuk cek tombol */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px; /* Sedikit jarak antar tombol */
+    transition: background-color 0.3s ease; /* Efek transisi saat hover */
+}
+
+button:hover {
+    background-color: #218838; /* Warna sedikit lebih gelap saat hover */
+}
+
+button#resetTombol { /* Gaya khusus untuk tombol reset */
+    background-color: #dc3545; /* Warna merah untuk reset tombol */
+}
+
+button#resetTombol:hover {
+    background-color: #c82333;
+}
+
+#pesanHasil {
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #555;
+}
+
+.hidden {
+    display: none; /* Class untuk menyembunyikan elemen */
+}
